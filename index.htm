@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Cash Register</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2>Cash Register 💲</h2>
+    </header>
+    <main class="container">
+      <label for="bill-amount">Bill Amount:</label>
+      <input
+        type="number"
+        placeholder="Enter the amount (in 💲) "
+        id="bill-amount"
+      />
+      <button class="next-btn" id="next-btn">Next</button>
+      <label id="cash-label">Cash Given:</label>
+      <input
+        type="number"
+        placeholder="Enter the amount (in 💲)"
+        id="cash-amount"
+      />
+      <button id="calculate-btn">Calculate</button>
+      <p id="error-msg" class="error"></p>
+      <div class="change-return" id="change-return">
+        <div class="label">Return Change:</div>
+        <div id="output">
+          <table>
+            <tr>
+              <th>Note</th>
+              <td>2000</td>
+              <td>500</td>
+              <td>100</td>
+              <td>50</td>
+              <td>20</td>
+              <td>10</td>
+              <td>5</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th>No. of Notes</th>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      Copyright © 2022-23
+      <div class="links">
+        <a href=""><i class="fab fa-github"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
