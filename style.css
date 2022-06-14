@@ -74,7 +74,7 @@ button {
 .error {
   font-size: 1.5rem;
   margin-top: 5px;
-  color: crimson;
+  color: rgb(250, 0, 50);
   display: none;
   text-align: center;
 }
